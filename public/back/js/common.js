@@ -32,9 +32,9 @@ if (location.href.indexOf("login.html")== -1) {
 
 // 二级菜单分类显示隐藏
 
-$(".child").prev().on("click",function () { 
-    $(this).next().slideToggle()
- });
+$(".child").prev().on("click", function () {
+    $(this).next().slideToggle();
+});
 
 $(".icon_menu").on("click", function () {
     $(".lt_aside").toggleClass("now");
